@@ -17,40 +17,41 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+    <link href='http://fonts.googleapis.com/css?family=Halant:400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About me</a>
+  <body class="site">
+
+    <div class="site-header">
+      <header class="header">
+        <a href="{{ site.baseurl }}/" class="header-info">
+          <h1 class="header-title">Chyngyz Arystan uulu</h1>
+          <p class="header-tagline">Front end developer</p>
+        </a>
+        <a href="{{ site.baseurl }}/" class="header-img"><img src="{{site.baseurl}}/images/profile.jpeg" alt="Chyngyz"></a>
+        <div class="header-social">
+          <nav class="social-nav">
+            {% include svg-icons.html %}
           </nav>
-        </header>
-      </div>
+        </div>
+        <div class="header-nav">
+          <nav class="main-nav">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/projects">Projects</a>
+          </nav>
+        </div>
+      </header>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+    <div class="site-content-container">
+      <main class="site-content">
+        {{content}}
+      </main> 
     </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
+      
   </body>
 </html>

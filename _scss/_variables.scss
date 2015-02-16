@@ -15,13 +15,26 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$halant: 'Halant', Georgia, serif;
+$opensans: 'Open Sans', Helvetica Neue,sans-serif;
 
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
+// Responsive Breakpoints
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "small" {
+    @media (min-width: 767px) {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "medium" {
+    @media (min-width: 800px) {
+      @content;
+    }
+  }
+ 
+  @else if $breakpoint == "large" {
+    @media (min-width: 1200px) {
+      @content;
+    }
   }
 }

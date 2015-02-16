@@ -1,0 +1,18 @@
+.site-content-container {
+	padding: 1.5em 1em 1em;
+	
+	@include respond-to(medium) {
+		margin-left: 11em;
+		padding: 2em;
+	}
+
+	@include respond-to(large) {
+		margin-left: 14em;
+    padding: 5em 3em 3em;
+	}
+	
+	.site-content {
+		margin: 0 auto;
+  	max-width: 36em;
+	}
+}
