@@ -25,6 +25,8 @@
 
   <body class="site">
 
+    {% include svg-icons.html %}
+
     <div class="site-header">
       <header class="header">
         <a href="{{ site.baseurl }}/" class="header-info">
@@ -34,12 +36,26 @@
         <a href="{{ site.baseurl }}/" class="header-img"><img src="{{site.baseurl}}/images/profile.jpeg" alt="Chyngyz"></a>
         <div class="header-social">
           <nav class="social-nav">
-            {% include svg-icons.html %}
+            <a href="https://twitter.com/chyngyz_arystan" class="social-icon social-icon-twitter">
+              <svg viewBox="0 0 32 32">
+                <use xlink:href="#icon-twitter"></use>
+              </svg>
+            </a>
+            <a href="https://github.com/chyngyz" class="social-icon social-icon-github" title="Github Account">
+              <svg viewBox="0 0 32 32">
+                <use xlink:href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="{{site.baseurl}}/feed.xml" class="social-icon social-icon-rss" title="RSS Feed">
+              <svg viewBox="0 0 32 32">
+                <use xlink:href="#icon-rss"></use>
+              </svg>
+            </a>
           </nav>
         </div>
         <div class="header-nav">
           <nav class="main-nav">
-            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/projects">Projects</a>
           </nav>

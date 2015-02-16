@@ -28,9 +28,29 @@ a {
   color: #333;
 }
 
+p {
+  margin: 0 0 1.5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
 h1, h2, h3 {
   font-family: Open Sans,Helvetica Neue,sans-serif;
   letter-spacing: -.04em;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: -.04em;
+	margin: 0;
 }
 
 @import "partial/_header";

@@ -2,17 +2,19 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
+<div class="posts-list">
+	<h1 class="page-title">Recent blog posts</h1>
+	<div class="margin-top">
+	{% for post in site.posts %}
+  	<article class="post">
+    	<time datetime="{{post.date}}">{{post.date | date: '%B %d, %Y'}} </time> 
       
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">{{ post.title }}</a>
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
+      <div class="post-excerpt">
+        {{ post.content | truncatewords:20}}
       </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-  {% endfor %}
+	{% endfor %}
+	</div>
 </div>

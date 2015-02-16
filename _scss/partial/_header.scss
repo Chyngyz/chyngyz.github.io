@@ -48,11 +48,16 @@
 }
 
 .header-img {
-	width: 40px;
+	width: 50px;
 	-webkit-flex: 0 0 auto;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
-	margin: 0 0 .5em;
+	margin: 0;
+	-webkit-transform: translateY(5px);
+	   -moz-transform: translateY(5px);
+	    -ms-transform: translateY(5px);
+	     -o-transform: translateY(5px);
+	        transform: translateY(5px);
 	    
 	@include respond-to(medium) {
 		width: 80px;
@@ -137,21 +142,60 @@
 }
 
 .header-nav {
-	
-	.main-nav {
-		font-weight: 700;
-		font-size: .8em;
-		line-height: 1.667;
-		
-		a {
-			color: #999;
-			display: block;
-			text-decoration: none;
-			transition: color .2s cubic-bezier(.4,0,.2,1);
+
+	display: none;
+
+	@include respond-to(medium) {
+		display: block;
+
+		.main-nav {
+			font-weight: 700;
+			font-size: .8em;
+			line-height: 1.667;
 			
-			&:hover {
-				color: $blue;
+			
+			
+			a {
+				color: #999;
+				display: block;
+				text-decoration: none;
+				transition: color .2s cubic-bezier(.4,0,.2,1);
+				
+				&:hover {
+					color: $blue;
+				}
 			}
+
+
 		}
+	}
+	
+	
+}
+
+.social-icon {
+	height: 1.5em;
+	width: 1.5em;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	
+	&-twitter:hover svg {
+		fill: #55acee;
+	}
+
+	&-github:hover svg {
+		fill: #171715;
+	}
+
+	&-rss:hover svg {
+		fill: #F93;
+	}
+	
+	svg {
+		height: 24px;
+		fill: #ccc;
+		transition: all .2s cubic-bezier(.4,0,.2,1);
+		width: 24px;
 	}
 }
