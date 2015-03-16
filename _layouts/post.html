@@ -13,7 +13,7 @@ layout: default
   </div>
 
   
-	<!--  
+	
   <div>
   	{% if post.tags.size > 0 %}
 	    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}
@@ -38,9 +38,9 @@ layout: default
 
 		<p id="post-meta">{{ tags_content }}</p>
   </div>
-  -->
-
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  {% if post.comments %}
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  {% endif %}
 </article>
 
 
