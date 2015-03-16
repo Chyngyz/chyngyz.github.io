@@ -15,6 +15,11 @@
 		margin: 0 auto;
   	max-width: 36em;
 	}
+
+	a {
+		text-decoration: underline;
+		color: $blue;
+	}
 }
 
 .page-title {
