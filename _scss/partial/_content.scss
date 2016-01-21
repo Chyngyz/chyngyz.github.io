@@ -1,6 +1,6 @@
 .site-content-container {
 	padding: 1.5em 1em 1em;
-	
+
 	@include respond-to(medium) {
 		margin-left: 11em;
 		padding: 2em;
@@ -10,7 +10,7 @@
 		margin-left: 14em;
     padding: 5em 3em 3em;
 	}
-	
+
 	.site-content {
 		margin: 0 auto;
   	max-width: 36em;
@@ -30,7 +30,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	word-spacing: .5em;
-	
+
 	@include respond-to(medium) {
 		text-align: left;
 	}
@@ -39,7 +39,7 @@
 .margin-top {
 	margin: 1em 0 0;
 	padding: 0;
-	
+
 	@include respond-to(small){
 		margin-top: 1.5em;
 	}
@@ -57,7 +57,7 @@
 	border-top: 1px solid #eee;
 	display: block;
 	padding: 1.5em 0;
-	
+
 	time {
 		color: #aaa;
 		font-size: .8em;
@@ -67,10 +67,10 @@
 		display: block;
 		font-size: 1.4em;
 		font-weight: 600;
-		line-height: 1.1;
+		line-height: 1.2;
 		margin: .6em 0 .2em;
 		transition: color .2s cubic-bezier(.4,0,.2,1);
-		
+
 		&:hover {
 			color: $blue;
 		}

@@ -2,7 +2,7 @@
 layout: post
 title: How to SVG Sprite
 category: programming
-comment: true
+comments: false
 ---
 
 SVG nowadays is very popular, and there great resources out there on how to generate SVG sprites and use them. I put the links to them below the post. Here I just want to show how I use SVG sprites.
@@ -25,7 +25,7 @@ So first of all, I need to generate SVG sprite. Here is the sprite container.
 </svg>
 ```
 
-I make sure that all SVG elements' viewports are same so that there is no viewport differences between them, otherwise you have a headache fixing via CSS. So make sure all SVG element paths are taken from same viewport dimensions. The `fill` attribute is the default color, and maybe omitted if needed. The color can be applied in CSS. 
+I make sure that all SVG elements' viewports are same so that there is no viewport differences between them, otherwise you have a headache fixing via CSS. So make sure all SVG element paths are taken from same viewport dimensions. The `fill` attribute is the default color, and maybe omitted if needed. The color can be applied in CSS.
 
 The next step is to link to particular SVG icon to view it:
 
