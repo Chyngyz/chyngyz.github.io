@@ -62,10 +62,10 @@ The best part is that class of containing SVG icon can be easily styled, for ins
 
 The disadvantage of SVG sprite is that it is not supported in **IE**. Even IE9+ don't fully support this technique. No version of IE supports referencing an external SVG in `<use>`.
 
-But fortunately there is a plugin called [svg4everybody] (https://github.com/jonathantneal/svg4everybody 'svg4everybody') that fills this gap in IE. For details, refer to the plugin’s Github repository.
+But fortunately there is a plugin called [svg4everybody](https://github.com/jonathantneal/svg4everybody 'svg4everybody') that fills this gap in IE. For details, refer to the plugin’s Github repository.
 
 So this is it, the live examples of SVG sprite use are social icons on the left. Checkout some great resources from the links below:
 
-* [Icon System with SVG Sprites] (https://css-tricks.com/svg-sprites-use-better-icon-fonts/ 'svg4evIcon System with SVG Spriteserybody')
-* [An Overview of SVG Sprite Creation Techniques] (http://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/ 'An Overview of SVG Sprite Creation Techniques')
-* [CSS-Tricks Screencast #136: SVG is for Everybody] (http://www.youtube.com/watch?v=w83XRCkMtHQ 'CSS-Tricks Screencast #136: SVG is for Everybody')
+* [Icon System with SVG Sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/ 'svg4evIcon System with SVG Spriteserybody')
+* [An Overview of SVG Sprite Creation Techniques](http://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/ 'An Overview of SVG Sprite Creation Techniques')
+* [CSS-Tricks Screencast #136: SVG is for Everybody](http://www.youtube.com/watch?v=w83XRCkMtHQ 'CSS-Tricks Screencast #136: SVG is for Everybody')
