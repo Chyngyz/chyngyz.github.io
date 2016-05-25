@@ -2,7 +2,7 @@
 layout: post
 title: How to SVG Sprite
 category: programming
-comments: false
+comments: true
 ---
 
 SVG nowadays is very popular, and there great resources out there on how to generate SVG sprites and use them. I put the links to them below the post. Here I just want to show how I use SVG sprites.

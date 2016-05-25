@@ -2,7 +2,7 @@
 layout: post
 title: Using env variables in AngularJS app using gulp-ng-config
 category: programming
-comments: false
+comments: true
 ---
 
 While building an AngularJS app, I encountered that I need my angular constants to be changed according to my development environment. As my app is scaffolded by using [yeoman](http://yeoman.io/ 'yeoman'), the [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular "generator-gulp-angular") to be precise, I had to find the gulp module that could create the constants module according to my gulp processes. Luckily I found several npm packages that solve my issue, but the one I used was [gulp-ng-config](https://github.com/ajwhite/gulp-ng-config 'gulp-ng-config').
