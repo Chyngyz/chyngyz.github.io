@@ -43,14 +43,23 @@ em {
 h1, h2, h3 {
   font-family: Open Sans,Helvetica Neue,sans-serif;
   letter-spacing: -.04em;
+  margin-bottom: .5em;
+  font-weight: 600;
 }
 
 h1 {
 	font-size: 2.5em;
-	font-weight: 600;
 	line-height: 1;
 	letter-spacing: -.04em;
 	margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 @import "partial/_header";
