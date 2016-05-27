@@ -45,7 +45,7 @@ module.exports = {
 
 Если запустить с флагом `—watch`, webpack будет ждать изменений в файле и срабатывать каждый раз как выявить их. Или добавить ее в `webpack.config.js`:
 
-```
+```js
 watch: true
 ```
 
@@ -70,7 +70,7 @@ webpack-dev-server --content-base path/
 
 Так же можно настроить output в `webpack.config.js`:
 
-```
+```js
 output : {
     path: __dirname + 'build/js',
     publicPath: "/public/js/",
@@ -80,7 +80,7 @@ output : {
 
 Это означает, что при сборке `bundle.js` окажется в `build/js/bundle.js`, а когда webpack-dev-server поднимет локальный веб-сервер `bundle.js`, будет доступен по `publicPath` пути, то есть в `index.html`:
 
-```
+```html
 <script src="public/js/bundle.js"></script>
 ```
 
@@ -95,7 +95,7 @@ webpack-dev-server --hot
 
 или опять же ее добавить в `webpack.config.js` как плагин:
 
-```
+```js
 plugins: [
   new webpack.HotModuleReplacementPlugin()
 ]
@@ -113,7 +113,7 @@ npm install babel-core babel-loader babel-preset-es2015    --save-dev
 
 Также нужно создать `.babelrc` и указать там нужный пресет:
 
-```
+```js
 //.babelrc
 {
   "presets" : "es2015"
@@ -122,7 +122,7 @@ npm install babel-core babel-loader babel-preset-es2015    --save-dev
 
 Теперь можем писать ES6 и транспайлить ее в ES5.
 
-```
+```js
 // greeting.js
 class Greeting{
   constructor() {
@@ -137,7 +137,7 @@ class Greeting{
 export default Greeting;
 ```
 
-```
+```js
 // app.js
 
 import Greeting from './greeting';
@@ -152,7 +152,7 @@ a.greet();
 
 Добавим поддержку стилей, картинок и шрифтов.
 
-```
+```js
 module : {
   loaders : [
     {
@@ -181,7 +181,7 @@ module : {
 
 Здесь важно заметить, что очередь команд в `loader`:
 
-```
+```js
 {
   test: /\.scss$/,
   loader: 'style!css!sass?sourceMap',
@@ -195,7 +195,7 @@ module : {
 
 Плагины дают возможность еще больше расширить процесс сборки, делая  разные изменения на лету. Для подключения добавим пункт `plugins` с несколькими широко популярными плагинами:
 
-```
+```js
 plugins: [
   // Убирает дубликаты кода
   new webpack.optimize.DedupePlugin(),
@@ -212,7 +212,7 @@ plugins: [
 
 `Webpack.config.js` целиком:
 
-```
+```js
 var webpack = require('webpack');
 
 module.exports = {
