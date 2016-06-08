@@ -41,10 +41,11 @@ em {
 }
 
 h1, h2, h3 {
-  font-family: Open Sans,Helvetica Neue,sans-serif;
+  font-family: 'Open Sans', Helvetica Neue,sans-serif;
   letter-spacing: -.04em;
   margin-bottom: .5em;
   font-weight: 600;
+  color: $blue;
 }
 
 h1 {

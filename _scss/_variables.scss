@@ -4,7 +4,7 @@
 //
 
 // Colors
-$blue: #4183C4; 
+$blue: #4183C4;
 
 // Grays
 $black: #000;
@@ -15,7 +15,7 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$halant: 'Halant', Georgia, serif;
+$halant: Georgia, serif;
 $opensans: 'Open Sans', Helvetica Neue,sans-serif;
 
 // Responsive Breakpoints
@@ -25,13 +25,13 @@ $opensans: 'Open Sans', Helvetica Neue,sans-serif;
       @content;
     }
   }
- 
+
   @else if $breakpoint == "medium" {
     @media (min-width: 800px) {
       @content;
     }
   }
- 
+
   @else if $breakpoint == "large" {
     @media (min-width: 1200px) {
       @content;
