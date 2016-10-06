@@ -86,7 +86,7 @@ controller: "myCtrl as vm"
   },
   template: [
     '<div class="container">',
-      '<h1>{{ $ctrl.data.title }}</h1>',
+      '<h1 ng-bind="$ctrl.data.title"></h1>',
       '<ul>',
         '<li ng-repeat="item in $ctrl.data.list track by $id(item)" ng-bind="item"></li>',
       '</ul>',

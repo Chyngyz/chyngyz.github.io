@@ -7,10 +7,6 @@ comments: true
 
 Example of using window object in Angular 2:
 
-
-
-
-
 ```ts
 // window.service.ts
 
