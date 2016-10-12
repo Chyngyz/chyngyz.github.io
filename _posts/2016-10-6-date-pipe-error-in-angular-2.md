@@ -5,9 +5,10 @@ category: programming
 comments: true
 ---
 
-Recently while working on [Rekrut Project](http://rekrut.kg), I encountered a strange error of my app crashing on some browsers. Digging in the past commits, I finally found that the problem was with my *date pipe* that I used to format my dates.
+Recently while working on [Rekrut Project](http://rekrut.kg), I encountered a strange error of my app crashing on some browsers. Looking the past commits, I finally came across the reason that was related to *date pipe* that I used to format my dates.
 
 Digging into the problem, I found that Angular 2 uses the new [Internationalization(Intl)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) standard built into JavaScript and the browser, which allows to automatically display the appropriate currency and date format to users in different geolocations, which is COOL! But the problem is that not all browsers support it. According to [caniuse.com](http://caniuse.com/#search=intl), we see that our app will crash on mobile browsers of
+
 * Android <= 4.3,
 * on Safari and Chrome on IOS <= 9.3
 * and on IE<=10 and Safari <= 9.1 on desktops.
