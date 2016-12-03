@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/chyngyz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chyngyz.github.io
+  * I am chyngyz (https://keybase.io/chyngyz) on keybase.
+  * I have a public key with fingerprint 3091 4033 A319 0BED 5AA6  16D9 8EF4 CD1B 6C78 D86F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013ee07ae804adf1ebf652858a5664b288b28a2f38372fc2e07f6f9038eba4af4e0a",
+            "fingerprint": "30914033a3190bed5aa616d98ef4cd1b6c78d86f",
+            "host": "keybase.io",
+            "key_id": "8ef4cd1b6c78d86f",
+            "kid": "01013ee07ae804adf1ebf652858a5664b288b28a2f38372fc2e07f6f9038eba4af4e0a",
+            "uid": "0678000dedcd73f644f7d66785413319",
+            "username": "chyngyz"
+        },
+        "service": {
+            "hostname": "chyngyz.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1480776881,
+    "expire_in": 157680000,
+    "prev": "d04376c1d4e87d5caa86cabc7f6750f46234f68b6475fb31fed431acc9362558",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJtSBRBGL6zD9OKJCkqlGIpEjps9nZ3du4iEkPoJAOR7OvimN2ZOVft
+9rrdU6+S+lORGhYRSiWCJUVQKZZlWJgGRqIg9GFhoj8i6AuLPn9YzfbxI+hnP4Zh
+nnmeZ57nZe7OneZKdb+prsto+PzMdA/cORN3bc0dbd8raCZJCP69Qhn9udFyQi07
+VGYQwS8AEYgSpUDFFAEZEyZSjUHFixSEFQhlzYsQX9jLJCSpXqZ7OZdB5gMSohqW
+MZMpwIJHYEYkTGPRmBGxua0EfKIMJAlLog9olCgYQxESH6JM1omoQV1FBEHGhSWm
+5Sh4OA1bNNswOcYPoZ/x/sH/z7njv+ygigAAhBKdqBKDssxUAjmoyKLEOzhEi8Yi
+eBflbL0kEQkn9gjVHoGDFYZOnbk6Rf4mZIcNuySu/eoUjZm2qZvl/LrEtqOW35Hb
+iajDr6Ra6LdTSDMihM+SKypozDLMiOAXOVO3DcdalBFQVYiQ6BFoVdSI0ZDhMBSO
+8QLAeYdWcEsCZEmFukhkilSi6BgjqGNN50NQFcBk6JVkBpEGZVVhmiQySmRJxLru
+k6BXUZDgdNsdMbm3xHPiMPe0jHAE2/EYFap7e4LTXe5U18wZSc4nc6WmpP35esWP
+k7+65/eVmX0g1lg6lVNokMRk24t5tzs/tIyfeHK5sD05L+lE1ayzE1fSiqLvXnoO
+PcgSA4n+1qFgVVPO6eWbKsmSnu3X2l+MsMzGgmOdxasnm5sy176f47uo5o2n4Qor
+Y6zjVVcDKK153v+xY1d/6/nu4NWl+cpYTVd32oKXwae3gmzh9eD65JbvpcbD+EQo
+bA3m17lrWo6Pdp7q3je5Jmtk2bDfV1nkKtiAzg0E2i+9Hfy2bcW15o0Z448O7vCs
+zG+4Mji7sbN11dZAen1GU+3h4Ov+kVc3t9Re2P9JYV+uth0Ybhxed68+fj835WTt
+0ZyhRem1U0d2hm+YmZsXJwUCB3p/ACR0SYI=
+=Jkic
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chyngyz
+
+==================================================================
